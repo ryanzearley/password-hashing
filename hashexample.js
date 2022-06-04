@@ -39,8 +39,3 @@ async function passwordDemo(password1, password2, saltRounds) {
 }
 
 passwordDemo(password1, password2, saltRounds);
-
-// learned:
-// await only blocks next line of THAT function, interpreter continues outside the scope
-// event loop
-// if it is dependent, make sure it is within the .then() or await block
